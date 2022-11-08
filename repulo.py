@@ -5,7 +5,7 @@ lista = []
 for i in range (20):
     lista.append(random.randint(0, 9)) 
 
-print("Mérési eredmény: ", ' '.join(map(str, lista))) #Zárójel nélkül irja ki
+print("Mérési eredmény: ", ', '.join(map(str, lista))) #Zárójel nélkül irja ki
 
 #b
 print("Legmagasabb pont: ",max(lista))
